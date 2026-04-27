@@ -8,9 +8,9 @@ pkg install python -y
 pip install requests
 
 # ၂။ Folder အဟောင်းရှိရင် ဖျက်ပြီး အသစ်ဆောက်မယ်
-rm -rf ~/s123
-mkdir -p ~/s123
-cd ~/s123
+rm -rf ~/Yeyint
+mkdir -p ~/Yeyint
+cd ~/Yeyint
 
 # ၃။ ဖုန်းရဲ့ Bit (Architecture) ကို စစ်ဆေးမယ်
 ARCH=$(getprop ro.product.cpu.abi)
@@ -29,4 +29,4 @@ fi
 curl -LO https://raw.githubusercontent.com/sandar18705-del/Ye-yint-soe/main/s123_run.py
 
 echo -e "\033[92m[✔] အောင်မြင်စွာ ထည့်သွင်းပြီးပါပြီ!\033[0m"
-echo -e "\033[93mအသုံးပြုရန်: cd ~/s7wifi && python s123_run.py\033[0m"
+echo -e "\033[93mအသုံးပြုရန်: cd ~/Yeyint && python s123_run.py\033[0m"
