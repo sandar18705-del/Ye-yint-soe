@@ -23,6 +23,7 @@ if [ "$ARCH" = "arm64-v8a" ]; then
 else
     echo -e "\033[94m[*] 32-bit ဖုန်းဖြစ်ကြောင်း စစ်ဆေးတွေ့ရှိရသဖြင့် 32-bit version ကို ဒေါင်းလုဒ်ဆွဲနေသည်...\033[0m"
     curl -LO https://raw.githubusercontent.com/sandar18705-del/Ye-yint-soe/main/s123_32bit.so
+    mv s123_32bit.so s123_32bit.so
 fi
 
 # ၄။ Starter ဖိုင်ကို ဒေါင်းမယ်
