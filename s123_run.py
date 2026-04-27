@@ -11,7 +11,7 @@ except ImportError:
 
 # ၂။ .so ဖိုင်ကို Import လုပ်မယ်
 try:
-    import s123_32bit.so
+    import s123
 except ImportError as e:
     print(f"\n[!] Error: .so ဖိုင်ကို Import လုပ်လို့မရပါ။")
     print(f"အကြောင်းရင်း: {e}")
