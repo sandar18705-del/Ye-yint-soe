@@ -1,6 +1,6 @@
 #!/data/data/com.termux/files/usr/bin/bash
 
-echo -e "\033[92m[*] s123 အား ထည့်သွင်းနေပါသည်...\033[0m"
+echo -e "\033[92m[*] s123_32bit.so အား ထည့်သွင်းနေပါသည်...\033[0m"
 
 # ၁။ လိုအပ်တဲ့ Python နဲ့ Library တွေ သွင်းမယ်
 pkg update && pkg upgrade -y
